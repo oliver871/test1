@@ -1,6 +1,6 @@
 pipeline {
- /*   agent {
-        docker {
+    agent any
+ /*       docker {
             image 'jenkins/jenkins:lts'
             args '-p 3000:3000'
         }
